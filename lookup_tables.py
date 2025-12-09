@@ -292,21 +292,6 @@ def is_valid_indian_phone(phone):
 
 
 # Test the function
-if __name__ == "__main__":
-    test_phones = [
-        "9876543210",      # Valid: 10-digit
-        "+919876543210",   # Valid: +91 format
-        "98 7654 3210",    # Valid: with spaces
-        "98-7654-3210",    # Valid: with hyphens
-        "09876543210",     # Valid: with leading 0
-        "98765",           # Invalid: too short
-        "abc1234567890",   # Invalid: letters
-        "",                # Invalid: empty
-    ]
-    
-    for phone in test_phones:
-        result = is_valid_indian_phone(phone)
-        print(f"  {phone:20} -> {result}")
 
 # ============================================================================
 # PINCODE VALIDATION - Indian postal codes
@@ -343,21 +328,6 @@ def is_valid_pincode(pincode):
 
 
 # Test the function
-if __name__ == "__main__":
-    test_pincodes = [
-        "560001",      # Valid: standard format
-        "400020",      # Valid: standard format
-        "110001",      # Valid: standard format
-        "56001",       # Invalid: only 5 digits
-        "5600001",     # Invalid: 7 digits
-        "060001",      # Invalid: starts with 0
-        "abcdef",      # Invalid: letters
-        "",            # Invalid: empty
-    ]
-    
-    for pincode in test_pincodes:
-        result = is_valid_pincode(pincode)
-        print(f"  {pincode:20} -> {result}")
 
 # ============================================================================
 # REGISTRATION NUMBER VALIDATION - Medical registration patterns
@@ -398,22 +368,7 @@ def matches_reg_pattern(registration_no):
     return False
 
 
-# Test the function
-if __name__ == "__main__":
-    test_regs = [
-        "MCI10012345",      # Valid: NMC format
-        "TN0001234",        # Valid: State council format
-        "KA123456",         # Valid: Karnataka format
-        "AP1234567890",     # Valid: Andhra Pradesh format
-        "INVALID_REG",      # Invalid: doesn't match pattern
-        "MCI1001",          # Invalid: too few digits
-        "123456789",        # Invalid: no letter prefix
-        "",                 # Invalid: empty
-    ]
-    
-    for reg in test_regs:
-        result = matches_reg_pattern(reg)
-        print(f"  {reg:20} -> {result}")
+
 
 
 # ============================================================================
@@ -452,3 +407,50 @@ if __name__ == "__main__":
     for i, rec in enumerate(test_records):
         result = all_required_fields_present(rec)
         print(f"  Record {i+1}: {result}")
+
+    test_phones = [
+        "9876543210",      # Valid: 10-digit
+        "+919876543210",   # Valid: +91 format
+        "98 7654 3210",    # Valid: with spaces
+        "98-7654-3210",    # Valid: with hyphens
+        "09876543210",     # Valid: with leading 0
+        "98765",           # Invalid: too short
+        "abc1234567890",   # Invalid: letters
+        "",                # Invalid: empty
+    ]
+    
+    for phone in test_phones:
+        result = is_valid_indian_phone(phone)
+        print(f"  {phone:20} -> {result}")
+
+
+    test_pincodes = [
+        "560001",      # Valid: standard format
+        "400020",      # Valid: standard format
+        "110001",      # Valid: standard format
+        "56001",       # Invalid: only 5 digits
+        "5600001",     # Invalid: 7 digits
+        "060001",      # Invalid: starts with 0
+        "abcdef",      # Invalid: letters
+        "",            # Invalid: empty
+    ]
+    
+    for pincode in test_pincodes:
+        result = is_valid_pincode(pincode)
+        print(f"  {pincode:20} -> {result}")
+
+
+    test_regs = [
+        "MCI10012345",      # Valid: NMC format
+        "TN0001234",        # Valid: State council format
+        "KA123456",         # Valid: Karnataka format
+        "AP1234567890",     # Valid: Andhra Pradesh format
+        "INVALID_REG",      # Invalid: doesn't match pattern
+        "MCI1001",          # Invalid: too few digits
+        "123456789",        # Invalid: no letter prefix
+        "",                 # Invalid: empty
+    ]
+    
+    for reg in test_regs:
+        result = matches_reg_pattern(reg)
+        print(f"  {reg:20} -> {result}")

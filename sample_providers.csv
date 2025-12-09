@@ -1,0 +1,101 @@
+id,name,phone,city,specialty,registration_no,years_practice,clinic_address,pincode
+1,Dr. Rajesh Sharma,9876543210,Bangalore,Cardiology,MCI10012345,8,123 MG Road Bangalore,560001
+2,Dr. Priya Patel,9123456789,Mumbai,Gynecology,MCI10012346,5,789 Marine Drive Mumbai,400020
+3,Dr. Arun Kumar,8765432109,Delhi,Orthopedics,MCI10012347,12,456 Connaught Place Delhi,110001
+4,Dr. Sneha Singh,9988776655,Pune,Pediatrics,MCI10012348,3,321 Camp Road Pune,411001
+5,Dr. Vikram Verma,9111222333,Hyderabad,Neurology,MCI10012349,15,654 Somajiguda Hyderabad,500082
+6,Dr. Anita Desai,9456789123,Bangalore,Dermatology,MCI10012350,7,987 Indiranagar Bangalore,560038
+7,Dr. Sanjay Reddy,919876123456,Bangalore,Ophthalmology,MCI10012351,10,111 Whitefield Bangalore,560066
+8,Dr. Pooja Gupta,9645321789,Kolkata,Dentistry,MCI10012352,4,222 Park Circus Kolkata,700017
+9,Dr. Amit Joshi,9988123456,Ahmedabad,Pathology,INVALID_REG,6,333 SG Highway Ahmedabad,380015
+10,Dr. Nisha Nair,98765,Chennai,Neurology,MCI10012354,2,444 Teynampet Chennai,600018
+11,Dr. Vikram Sharma,9876543210,Banaglore,Cardiology,MCI10012355,4,100 Brigade Road Bangalore,560001
+12,Dr. Kavya Singh,9776543210,Mumbai,InvalidSpec,MCI10012356,7,45 Fort Mumbai,400001
+13,Dr. Sanjay Patel,9876123456,Delhi,General Practice,MCI10012357,10,55 Rajpath Delhi,110001
+14,Dr. Meera Desai,7654321098,Pune,Gynecology,MCI10012358,6,89 Koregaon Park Pune,411001
+15,Dr. Akshay Kumar,9876543210,Hyderabad,Orthopedics,MCI10012359,3,200 Jubilee Hills Hyderabad,500033
+16,Dr. Deepak Nair,9567890123,Bangalore,Dermatology,BADREGNO,9,220 Cubbon Road Bangalore,560001
+17,Dr. Ishita Gupta,98765432109,Chennai,Pathology,MCI10012361,5,55 Teynampet Chennai,600018
+18,Dr. Rohit Verma,9999999999,Mumbai,ENT,MCI10012362,2,99 Bandra Mumbai,400050
+19,Dr. Priya Sharma,9876543210,Pune,Pediatrics,MCI10012363,8,150 Kalyani Nagar Pune,411006
+20,Dr. Amit Singh,9876123456,Delhi,Cardiology,MCI10012364,4,75 GK Enclave Delhi,110048
+21,Dr. Neha Patel,9544321098,Bangalore,Neurology,MCI10012365,11,300 Koramangala Bangalore,560034
+22,Dr. Sanjay Desai,9876543210,Hyderabad,Psychiatry,MCI10012366,6,125 Somajiguda Hyderabad,500082
+23,Dr. Pooja Singh,9776543210,Kolkata,Urology,MCI10012367,5,88 AJC Bose Road Kolkata,700014
+24,Dr. Vikram Nair,,Ahmedabad,Oncology,MCI10012368,12,177 SG Highway Ahmedabad,380015
+25,Dr. Kavya Sharma,9876543210,Mumbai,Gastroenterology,MCI10012369,7,222 Worli Mumbai,400025
+26,Dr. Deepak Gupta,9876543210,Bangalore,Cardiology,MCI10012370,9,555 Indiranagar Bangalore,560038
+27,Dr. Ishita Reddy,9765432109,Chennai,Dermatology,MCI10012371,3,101 CPT Nagar Chennai,600017
+28,Dr. Rohit Patel,9876543210,Delhi,General Surgery,MCI10012372,15,444 Connaught Place Delhi,110001
+29,Dr. Meera Kumar,9654321098,Pune,Pediatrics,InvalidRegFormat,8,67 Deccan Pune,411002
+30,Dr. Akshay Sharma,9876543210,Hyderabad,Neurology,MCI10012374,2,190 Banjara Hills Hyderabad,500034
+31,Dr. Akshay Gupta,9642722874,Lucknow,ENT,MCI10012405,17,794 Lane Chennai,785240
+32,Dr. Neha Nair,9613510660,Jaipur,Neurology,MCI10012406,4,732 Street Chennai,602647
+33,Dr. Anjali Gupta,9935330351,Kolkata,Pathology,MCI10012407,3,870 Lane Jaipur,826247
+34,Dr. Deepak Reddy,9372337327,Jaipur,Pathology,MCI10012408,11,917 Road Hyderabad,935887
+35,Dr. Anita Patel,9312216563,Pune,General Practice,MCI10012409,25,243 Road Jaipur,885154
+36,Dr. Suresh Gupta,9140315940,Delhi,Dermatology,MCI10012410,5,897 Avenue Chennai,812091
+37,Dr. Neha Nair,9593739532,Hyderabad,Pediatrics,MCI10012411,5,370 Street Chennai,837585
+38,Dr. Arun Nair,9299612276,Delhi,Pediatrics,MCI10012412,4,415 Lane Mumbai,753910
+39,Dr. Arjun Sharma,9476705501,Pune,Pathology,MCI10012413,14,426 Street Mumbai,878820
+40,Dr. Pooja Kumar,9121993602,Pune,Orthopedics,MCI10012414,18,298 Road Mumbai,951504
+41,Dr. Anjali Patel,9948209207,Bangalore,Orthopedics,MCI10012415,7,881 Road Chennai,733378
+42,Dr. Priya Joshi,9681827121,Kolkata,ENT,MCI10012416,18,180 Street Mumbai,960974
+43,Dr. Kavya Patel,9383270042,Hyderabad,Neurology,MCI10012417,17,449 Road Jaipur,819443
+44,Dr. Pooja Nair,9414413573,Jaipur,Neurology,MCI10012418,18,396 Road Pune,652043
+45,Dr. Sanjay Kumar,9431740957,Lucknow,Gynecology,MCI10012419,17,502 Avenue Bangalore,828702
+46,Dr. Arjun Patel,9763124796,Ahmedabad,Dermatology,MCI10012420,15,389 Road Ahmedabad,749395
+47,Dr. Akshay Nair,9144220189,Bangalore,Orthopedics,MCI10012421,17,836 Avenue Mumbai,735046
+48,Dr. Meera Patel,9736577984,Ahmedabad,Orthopedics,MCI10012422,9,748 Road Pune,799064
+49,Dr. Sanjay Kumar,9113358335,Pune,Pediatrics,MCI10012423,3,146 Street Mumbai,566991
+50,Dr. Pooja Verma,9786280708,Pune,ENT,MCI10012424,14,658 Street Chennai,850124
+51,Dr. Deepak Singh,9372376904,Delhi,Pediatrics,MCI10012425,16,514 Lane Mumbai,617392
+52,Dr. Deepak Joshi,9476915993,Lucknow,Gynecology,MCI10012426,15,391 Avenue Hyderabad,616247
+53,Dr. Kavya Gupta,9370857540,Kolkata,Pediatrics,MCI10012427,22,636 Avenue Lucknow,563968
+54,Dr. Ishita Sharma,9915240462,Lucknow,Pediatrics,MCI10012428,17,646 Street Bangalore,984960
+55,Dr. Anita Reddy,9854545174,Lucknow,Cardiology,MCI10012429,16,245 Lane Ahmedabad,855779
+56,Dr. Amit Desai,9269279006,Chennai,Dentistry,MCI10012430,6,291 Street Jaipur,903144
+57,Dr. Deepak Nair,9916009952,Bangalore,Cardiology,MCI10012431,5,141 Street Delhi,759123
+58,Dr. Sanjay Kumar,9209855332,Pune,Pediatrics,MCI10012432,25,340 Lane Lucknow,675255
+59,Dr. Deepak Gupta,9349727080,Mumbai,Dermatology,MCI10012433,3,464 Avenue Delhi,950790
+60,Dr. Amit Joshi,9322778281,Ahmedabad,Dermatology,MCI10012434,23,155 Lane Jaipur,799000
+61,Dr. Rajesh Reddy,9921298728,Mumbai,Dermatology,MCI10012435,2,711 Avenue Bangalore,714188
+62,Dr. Arun Verma,9635058910,Kolkata,Cardiology,MCI10012436,21,435 Street Mumbai,865178
+63,Dr. Nisha Nair,9248677728,Pune,Orthopedics,MCI10012437,25,216 Street Lucknow,815748
+64,Dr. Ishita Sharma,9592682092,Delhi,Orthopedics,MCI10012438,1,361 Avenue Chennai,936432
+65,Dr. Anita Reddy,9476149931,Mumbai,Pathology,MCI10012439,23,348 Avenue Jaipur,904579
+66,Dr. Arjun Singh,9974648230,Pune,Pediatrics,MCI10012440,24,664 Avenue Chennai,934629
+67,Dr. Anjali Reddy,9360053502,Mumbai,Neurology,MCI10012441,15,116 Road Hyderabad,858086
+68,Dr. Neha Desai,9381565430,Delhi,Cardiology,MCI10012442,3,913 Street Jaipur,619357
+69,Dr. Rajesh Nair,9342925823,Mumbai,General Practice,MCI10012443,11,593 Avenue Bangalore,668890
+70,Dr. Neha Patel,9518173481,Mumbai,ENT,MCI10012444,13,251 Street Jaipur,768415
+71,Dr. Amit Sharma,9945397826,Pune,Pediatrics,MCI10012445,20,130 Avenue Bangalore,564257
+72,Dr. Anita Reddy,9419828786,Mumbai,Cardiology,MCI10012446,6,156 Road Hyderabad,806680
+73,Dr. Meera Reddy,9992060882,Mumbai,Dentistry,MCI10012447,15,367 Avenue Pune,746996
+74,Dr. Sneha Kumar,9881306194,Bangalore,Pathology,MCI10012448,6,138 Street Mumbai,622274
+75,Dr. Suresh Nair,9502791761,Chennai,Orthopedics,MCI10012449,22,840 Avenue Bangalore,694574
+76,Dr. Arjun Kumar,9315079329,Chennai,ENT,MCI10012450,6,842 Avenue Ahmedabad,966107
+77,Dr. Vikram Joshi,9799652800,Bangalore,Neurology,MCI10012451,5,623 Road Mumbai,690986
+78,Dr. Nisha Sharma,9583366831,Kolkata,Orthopedics,MCI10012452,6,542 Street Mumbai,682676
+79,Dr. Ishita Verma,9379893678,Pune,Cardiology,MCI10012453,12,481 Road Delhi,660531
+80,Dr. Rajesh Patel,9900310364,Hyderabad,Gynecology,MCI10012454,5,273 Street Hyderabad,999414
+81,Dr. Meera Joshi,9844843725,Kolkata,Pathology,MCI10012455,17,598 Street Chennai,899253
+82,Dr. Arun Nair,9640947175,Chennai,Cardiology,MCI10012456,15,291 Avenue Delhi,876275
+83,Dr. Meera Gupta,9340692134,Delhi,Dermatology,MCI10012457,25,983 Avenue Mumbai,850013
+84,Dr. Arun Sharma,9336331913,Chennai,Gynecology,MCI10012458,25,283 Street Kolkata,922320
+85,Dr. Anita Reddy,9942113704,Mumbai,Pathology,MCI10012459,24,126 Road Ahmedabad,902189
+86,Dr. Pooja Desai,9913690389,Lucknow,Pediatrics,MCI10012460,25,220 Avenue Ahmedabad,612587
+87,Dr. Akshay Patel,9892474666,Pune,ENT,MCI10012461,19,659 Lane Chennai,856899
+88,Dr. Akshay Joshi,9137392706,Lucknow,General Practice,MCI10012462,15,575 Road Jaipur,615955
+89,Dr. Anjali Verma,9931300389,Ahmedabad,ENT,MCI10012463,14,632 Lane Delhi,640414
+90,Dr. Neha Nair,9561745913,Pune,Dermatology,MCI10012464,18,231 Street Chennai,875462
+91,Dr. Arun Verma,9288874961,Delhi,Cardiology,MCI10012465,21,886 Road Ahmedabad,673250
+92,Dr. Arjun Joshi,9620880454,Jaipur,Pathology,MCI10012466,25,467 Lane Lucknow,860622
+93,Dr. Akshay Reddy,9513886803,Delhi,Dermatology,MCI10012467,2,449 Lane Chennai,609281
+94,Dr. Ishita Patel,9581650820,Hyderabad,Neurology,MCI10012468,16,548 Avenue Delhi,904899
+95,Dr. Ishita Singh,9406015019,Pune,General Practice,MCI10012469,2,718 Lane Hyderabad,757838
+96,Dr. Neha Sharma,9996910953,Bangalore,Gynecology,MCI10012470,17,770 Avenue Pune,939066
+97,Dr. Deepak Singh,9345051648,Mumbai,Dermatology,MCI10012471,12,353 Lane Lucknow,705797
+98,Dr. Rajesh Gupta,9892505832,Pune,Orthopedics,MCI10012472,5,161 Lane Pune,656015
+99,Dr. Nisha Singh,9592000114,Chennai,Dermatology,MCI10012473,15,511 Road Mumbai,765487
+100,Dr. Suresh Singh,9132943840,Lucknow,Gynecology,MCI10012474,3,620 Street Jaipur,850298
