@@ -1,0 +1,59 @@
+
+# requirements.txt
+# MedVerify AI MVP - Python Dependencies
+# Install with: pip install -r requirements.txt
+
+# ==============================================================================
+# CORE FRAMEWORK & WEB UI
+# ==============================================================================
+streamlit==1.28.0              # Web dashboard interface for MVP
+pandas==2.0.0                  # Data manipulation and CSV handling
+numpy==1.24.0                  # Numerical operations and statistics
+
+# ==============================================================================
+# DATA PROCESSING & MATCHING
+# ==============================================================================
+fuzzywuzzy==0.18.0             # Fuzzy string matching for typos & variations
+python-Levenshtein==0.21.0     # C implementation for fuzzywuzzy (faster)
+
+# ==============================================================================
+# VISUALIZATION & CHARTING
+# ==============================================================================
+plotly==5.17.0                 # Interactive charts for dashboard metrics
+matplotlib==3.7.0              # Additional plotting library (optional)
+
+# ==============================================================================
+# MULTI-AGENT ORCHESTRATION (Optional, but recommended)
+# ==============================================================================
+crewai==0.1.5                  # Multi-agent coordination framework
+                               # Note: If installation fails, can be skipped
+                               # and replaced with manual orchestration loop
+
+# ==============================================================================
+# ENVIRONMENT & CONFIG MANAGEMENT
+# ==============================================================================
+python-dotenv==1.0.0           # Load environment variables from .env file
+
+# ==============================================================================
+# API & WEB REQUESTS
+# ==============================================================================
+requests==2.31.0               # HTTP library for API calls (when needed)
+
+# ==============================================================================
+# OPTIONAL: PRODUCTION-READY PACKAGES (Not required for MVP)
+# ==============================================================================
+# flask==2.3.0                  # Alternative web framework (if not using Streamlit)
+# fastapi==0.100.0              # High-performance API framework
+# uvicorn==0.23.0               # ASGI server for FastAPI
+# sqlalchemy==2.0.0              # Database ORM (if using persistent database)
+# psycopg2-binary==2.9.0        # PostgreSQL adapter (if using database)
+# celery==5.3.0                 # Task queue for async processing (optional)
+# redis==5.0.0                  # Cache backend for Celery (optional)
+
+# ==============================================================================
+# DEVELOPMENT & TESTING (Optional)
+# ==============================================================================
+# pytest==7.4.0                 # Testing framework
+# black==23.9.0                 # Code formatter
+# flake8==6.0.0                 # Linter
+# pylint==2.17.0                # Code quality checker
